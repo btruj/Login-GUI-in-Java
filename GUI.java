@@ -38,14 +38,6 @@ public class GUI implements ActionListener {
 		userText.setBounds(100, 20, 165, 25);
 		panel.add(userText);
 				
-
-		
-		
-		
-
-		
-
-		
 		//make password label
 		passwordLabel = new JLabel("Password");
 		passwordLabel.setBounds(10, 50, 80, 25);
@@ -72,9 +64,7 @@ public class GUI implements ActionListener {
 				unsuccess.setBounds(10, 110, 300, 25);
 				panel.add(unsuccess);
 				
-				
-		
-		frame.setVisible(true);
+				frame.setVisible(true);
 	}
 
 	@Override
